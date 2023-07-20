@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.crossed{
+  text-decoration: line-through 3px solid rgb(195, 117, 195);
+  background-color: #DFF6EE;
+  border-radius: 10px;
+  -webkit-text-decoratio-line:line-through;
+  -webkit-text-decoration-color:rgb(195, 117, 195);
+  -webkit-text-decoratio-thickness: 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: rgb(59, 55, 55);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul, li{
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+li{
+  margin-left: 80px;
+  width: 70%;
+  font-family: 'Roboto', sans-serif;;
+
+}
+.roundedImg{
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+input{
+  flex: 1;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #DFF6EE;
+  border: none;
+
+}
+
+.add{
+  width: 70%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #45C8C8;
+  color: rgb(59, 55, 55);
+  font-family: 'Roboto', sans-serif;;
+
+}
+
+.delete{
+  width: 70%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F0808E;
+  color: rgb(59, 55, 55);
+  font-family: 'Roboto', sans-serif;;
+
+}
+
+.App{
+  background-color: #D8CCE9;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.firstImg{
+  border-radius: 30px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #DFF6EE;
+}
+
+
+@media all and (max-width: 800px){
+  h1{
+    font-size: 20px;
   }
 }
